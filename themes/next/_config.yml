@@ -127,16 +127,16 @@ scheme: Mist
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/yourname || github
-  E-Mail: mailto:yourname@gmail.com || envelope
-  Google: https://plus.google.com/yourname || google
-  Twitter: https://twitter.com/yourname || twitter
-  FB Page: https://www.facebook.com/yourname || facebook
-  VK Group: https://vk.com/yourname || vk
-  StackOverflow: https://stackoverflow.com/yourname || stack-overflow
-  YouTube: https://youtube.com/yourname || youtube
-  Instagram: https://instagram.com/yourname || instagram
-  Skype: skype:yourname?call|chat || skype
+  GitHub: https://github.com/caishidong || github
+  E-Mail: mailto:caishidongCHN@outlook.com || envelope
+  #Google: https://plus.google.com/yourname || google
+  #Twitter: https://twitter.com/yourname || twitter
+  #FB Page: https://www.facebook.com/yourname || facebook
+  #VK Group: https://vk.com/yourname || vk
+  #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
+  #YouTube: https://youtube.com/yourname || youtube
+  #Instagram: https://instagram.com/yourname || instagram
+  #Skype: skype:yourname?call|chat || skype
 
 social_icons:
   enable: true
@@ -145,7 +145,12 @@ social_icons:
 
 # Blog rolls
 links_icon: link
+
+# title
 links_title: Links
+links:
+  No.7 ears: https://xioaqizhang.github.io/blogs/
+
 links_layout: block
 #links_layout: inline
 #links:
@@ -154,7 +159,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/myimages/myavatar.png
+avatar: /images/myimages/myavatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -194,7 +199,7 @@ sidebar:
   b2t: false
 
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
@@ -418,8 +423,8 @@ gitment:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
+#baidushare: true
+#type: button
 
 # Share
 # This plugin is more useful in China, make sure you known how to use it.
