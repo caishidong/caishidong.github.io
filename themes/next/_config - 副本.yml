@@ -225,7 +225,6 @@ auto_excerpt:
   enable: false
   length: 150
 
-
 # Post meta display settings
 post_meta:
   item_text: true
