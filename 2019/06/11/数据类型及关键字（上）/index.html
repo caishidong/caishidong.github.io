@@ -79,16 +79,31 @@
 
 
 
-<meta name="description" content="做事先等十分钟，看路要看十年后。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="BLOG">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="基本数据类型 数据类型可以理解为固定内存大小的别名，创建变量的模子  变量本质  范例    有符号与无符号有符号 数据类型的最高位用于表示数据的符号 最高位为1，表明这个数是负数        最高位为0，表明这个数为正数   在计算机内部用补码表示有符号数 正数的补码为正数本身 负数的补码为负数的绝对值各位取反后加1     无符号 在计算机内部用原码表示无符号数 无符号数默认为正数">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数据类型及关键字（上）">
+<meta property="og:url" content="http://yoursite.com/2019/06/11/数据类型及关键字（上）/index.html">
 <meta property="og:site_name" content="BLOG">
-<meta property="og:description" content="做事先等十分钟，看路要看十年后。">
+<meta property="og:description" content="基本数据类型 数据类型可以理解为固定内存大小的别名，创建变量的模子  变量本质  范例    有符号与无符号有符号 数据类型的最高位用于表示数据的符号 最高位为1，表明这个数是负数        最高位为0，表明这个数为正数   在计算机内部用补码表示有符号数 正数的补码为正数本身 负数的补码为负数的绝对值各位取反后加1     无符号 在计算机内部用原码表示无符号数 无符号数默认为正数">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-1.0.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-1.1.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-1.2.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-2.0.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-2.1.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-3.0.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-3.1.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-4.0.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-4.1.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-4.2.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-6.0.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-6.1.jpg">
+<meta property="og:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-6.2.jpg">
+<meta property="og:updated_time" content="2019-06-19T14:57:06.804Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="BLOG">
-<meta name="twitter:description" content="做事先等十分钟，看路要看十年后。">
+<meta name="twitter:title" content="数据类型及关键字（上）">
+<meta name="twitter:description" content="基本数据类型 数据类型可以理解为固定内存大小的别名，创建变量的模子  变量本质  范例    有符号与无符号有符号 数据类型的最高位用于表示数据的符号 最高位为1，表明这个数是负数        最高位为0，表明这个数为正数   在计算机内部用补码表示有符号数 正数的补码为正数本身 负数的补码为负数的绝对值各位取反后加1     无符号 在计算机内部用原码表示无符号数 无符号数默认为正数">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-1.0.jpg">
 
 
 
@@ -118,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/06/11/数据类型及关键字（上）/">
 
 
 
 
 
-  <title>BLOG</title>
+  <title>数据类型及关键字（上） | BLOG</title>
   
 
 
@@ -143,8 +158,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -279,9 +293,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -311,9 +325,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/06/11/数据类型及关键字（上）/" itemprop="url">数据类型及关键字（上）</a></h1>
+          <h1 class="post-title" itemprop="name headline">数据类型及关键字（上）</h1>
         
 
         <div class="post-meta">
@@ -385,9 +397,7 @@
       
 
       
-        
-          
-            <a id="more"></a>
+        <a id="more"></a>
 
 <h3 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h3><ol>
 <li>数据类型可以理解为固定内存大小的别名，创建变量的模子<br> <img src="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-1.0.jpg" alt></li>
@@ -598,8 +608,6 @@
 </ol>
 <p><img src="https://raw.githubusercontent.com/caishidong/picGo/master/C/1-6.2.jpg" alt> </p>
 
-          
-        
       
     </div>
     
@@ -616,12 +624,12 @@
       
 
       
+      
+      
 
       
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -631,10 +639,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -642,6 +651,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -662,8 +675,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -750,6 +772,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#基本数据类型"><span class="nav-number">1.</span> <span class="nav-text">基本数据类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#有符号与无符号"><span class="nav-number">2.</span> <span class="nav-text">有符号与无符号</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#有符号"><span class="nav-number">2.1.</span> <span class="nav-text">有符号</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#无符号"><span class="nav-number">2.2.</span> <span class="nav-text">无符号</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#signed-与-unsigned"><span class="nav-number">2.3.</span> <span class="nav-text">signed 与 unsigned</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#当无符号-unsigned-遇到有符号-signed"><span class="nav-number">2.3.1.</span> <span class="nav-text">当无符号 ( unsigned ) 遇到有符号 ( signed )</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#错误地使用了-unsigned"><span class="nav-number">2.3.2.</span> <span class="nav-text">错误地使用了 unsigned</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#浮点数"><span class="nav-number">3.</span> <span class="nav-text">浮点数</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#内存中的浮点数"><span class="nav-number">3.1.</span> <span class="nav-text">内存中的浮点数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#浮点数存储示例"><span class="nav-number">3.2.</span> <span class="nav-text">浮点数存储示例</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#浮点类型的秘密"><span class="nav-number">3.3.</span> <span class="nav-text">浮点类型的秘密</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#属性关键字（auto、register、static）"><span class="nav-number">4.</span> <span class="nav-text">属性关键字（auto、register、static）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#auto"><span class="nav-number">4.1.</span> <span class="nav-text">auto</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#static"><span class="nav-number">4.2.</span> <span class="nav-text">static</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#register"><span class="nav-number">4.3.</span> <span class="nav-text">register</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分支循环关键字（if、switch、do、while、for）"><span class="nav-number">5.</span> <span class="nav-text">分支循环关键字（if、switch、do、while、for）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#if-语句中零值比较的注意点："><span class="nav-number">5.1.</span> <span class="nav-text">if 语句中零值比较的注意点：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#switch"><span class="nav-number">5.2.</span> <span class="nav-text">switch</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#do-while-for"><span class="nav-number">5.3.</span> <span class="nav-text">do, while, for</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#break-和-continue-的区别"><span class="nav-number">5.4.</span> <span class="nav-text">break 和 continue 的区别</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#问题：switch-能否使用-continue-关键字？"><span class="nav-number">5.4.1.</span> <span class="nav-text">问题：switch 能否使用 continue 关键字？</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#goto、void、extern、sizeof"><span class="nav-number">6.</span> <span class="nav-text">goto、void、extern、sizeof</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#goto（跳转，禁用）"><span class="nav-number">6.1.</span> <span class="nav-text">goto（跳转，禁用）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#void-（表示无）"><span class="nav-number">6.2.</span> <span class="nav-text">void （表示无）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#extern（声明外部定义）"><span class="nav-number">6.3.</span> <span class="nav-text">extern（声明外部定义）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#sizeof（“计算”大小）"><span class="nav-number">6.4.</span> <span class="nav-text">sizeof（“计算”大小）</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -885,6 +923,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
