@@ -3,10 +3,10 @@ layout: "about"
 title: "About"
 date: 2016-04-21 04:48:33
 description: "Hey, this is CaiS.D."
-header-img: "../image/about-bg.jpg"
 comments: true
+photos: 
+    - "http://pic37.nipic.com/20140113/8800276_184927469000_2.png"
 ---
-
 
 >写写代码，做做设计，看看产品。
 >世界那么大，多玩玩看看。
